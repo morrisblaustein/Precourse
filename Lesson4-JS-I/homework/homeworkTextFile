@@ -1,0 +1,9 @@
+Variables give Javascript a way to store information, such as numbers and words, in specific memory spots of the computer. Those spots are given unique names, so that you can   instruct the computer to refer back to them.
+
+Strings are a type of variable, that allow you to store information as a string of characters, which are letters or numbers.
+
+Functions are a way for you define a set of instructions that might otherwise have been used repetitively. 
+
+If statements give you the ability to execute code only if a condition meets its requirements.
+
+Boolean values are a small type of data that can only hold a value as true or false.
