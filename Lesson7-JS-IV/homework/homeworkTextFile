@@ -1,0 +1,9 @@
+Objects are like array because they group sets of data. They use keys which can be a number or string, instead of an index that array uses. Keys are unique and associated with a value pair.
+
+Property is a key value pair in the object.
+
+Methods are functions that can you assigned to keys in an object.
+
+For in loops are an easy way to write a for loop that iterates through each property in an object.
+
+Dot notation is different than bracket notation because you don’t have to include quotes on a string to refer to a key, value pair.
