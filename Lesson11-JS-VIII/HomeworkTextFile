@@ -1,0 +1,1 @@
+Recursion is a type of function that calls itself. It can be useful for different kinds of control flow. Usually, a base case is placed at the beginning so once the recursion starts, the function will know when to stop. 
