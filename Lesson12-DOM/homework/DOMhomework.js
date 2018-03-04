@@ -96,7 +96,7 @@ function buildToDos(toDos) {
 function displayToDos() {
   var toDoContainer = document.querySelector('#toDoContainer');
   toDoContainer.innerHTML = '';
-  toDos = buildToDos(toDoItems);
+  const toDos = buildToDos(toDoItems);
   for ( var i = 0; i < toDos.length; i ++){  
     toDoContainer.appendChild(toDos[i]);
   }
@@ -150,7 +150,7 @@ document.getElementById('addButton').onclick = addToDo;
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
-function completeToDo() {
+function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   console.log(index);
